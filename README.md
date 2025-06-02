@@ -17,6 +17,10 @@ This project analyzes the historical performance (between 2009 to 2024) of the N
 | `crude_oil_price`  | Monthly average global oil price (USD/barrel)|
 | `inflation_rate`   | Nigerian monthly inflation rate (%)          |
 
+### Dataset Source
+* [Inflation rate data ](https://www.cbn.gov.ng/rates/inflrates.html)
+* [Crude oil price data](https://www.cbn.gov.ng/rates/crudeoil.html)
+* [NGN Excahnge rate data](https://www.cbn.gov.ng/rates/ExchRateByCurrency.html)
 ---
 
 ## 🔍 Research Questions
