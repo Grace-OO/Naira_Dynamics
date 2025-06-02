@@ -6,6 +6,7 @@ This project analyzes the historical performance (between 2009 to 2024) of the N
 > To explore how NGN exchange rates have changed over time and identify the impact of crude oil prices and inflation on the Naira’s performance against six foreign currencies.
 
 ---
+##### [View streamlit data story here](https://nairadynamics.streamlit.app/)
 
 ## 📁 Dataset Description
 
@@ -46,5 +47,16 @@ This project analyzes the historical performance (between 2009 to 2024) of the N
 - Heatmap of correlation coefficients
 - Box plots to compare overall volatility
 
+---
+## 📊 Key Insights
+From 2009 to 2024, the Nigerian Naira faced ongoing depreciation, with major devaluation trends beginning in 2023 and culminating in the worst decline in 2024.
+* Western currencies showed higher volatility compared to more stable Asian and African currencies.
+* Inflation was strongly correlated with exchange rate changes, while crude oil prices had minimal impact.
+* Currencies generally moved together, reflecting common economic influences.
 
 ---
+## 🛠 Tech Stack
+* Python (pandas, matplotlib, seaborn)
+* Jupyter Notebook
+* Streamlit for dashboard
+
