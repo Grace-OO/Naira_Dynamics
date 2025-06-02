@@ -84,7 +84,7 @@ if show_chart3:
     fig, ax = plt.subplots(figsize=(12, 6))
     for col in rolling_vol.columns:
         ax.plot(rolling_vol.index, rolling_vol[col], label=col)
-    ax.set_title("6-Month Rolling Std Dev")
+    ax.set_title("6-Month Rolling Volatility of Exchange Rates")
     ax.legend()
     ax.set_ylabel("Std Dev")
     ax.xaxis.set_major_locator(mdates.YearLocator())  # Show tick for each year
