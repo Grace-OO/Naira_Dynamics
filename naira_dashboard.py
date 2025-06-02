@@ -9,7 +9,7 @@ from matplotlib import style
 st.set_page_config(page_title="🔁 Naira Dynamics: Oil, Inflation And Exchange", layout="centered")
 
 st.title("🔁 Naira Dynamics: Oil, Inflation And Exchange")
-st.write('This project analyzes the historical performance (between 2009 to 2024) of the Nigerian Naira (NGN) against six major global currencies, focusing on **exchange rate trends**, **volatility**, and the **influence of crude oil prices and inflation**.')
+st.write('This project analyzes the historical performance (between 2009 and 2024) of the Nigerian Naira (NGN) against six major global currencies, focusing on **exchange rate trends**, **volatility**, and the **influence of crude oil prices and inflation**.')
 st.write("""
     This analysis is of value to professional in these spaces:
     * Financial Services & Banking – for FX risk assessment, investment strategy, and economic forecasting
@@ -19,7 +19,7 @@ st.write("""
     * Investment & Asset Management – for currency market analysis and portfolio allocation
     """)
 
-st.markdown("[Click here to explore the project code on GitHub.](https://github.com/Grace-OO/Call_Metrics/tree/main)")
+st.markdown("[Click here to explore the project code on GitHub.](https://github.com/Grace-OO/Naira_Dynamics)")
 # Load dataset (assumes the file is preloaded, not uploaded)
 df = pd.read_csv("naira.csv", parse_dates=['date'])
 
